@@ -63,7 +63,7 @@ def main():
 
         ####### Features ######
         def checkrequisite():
-            os.system("python /opt/ceguel/checkdependences.py")
+            os.system("python /ceguel/checkdependences.py")
         def install_nmap():
             os.system('sudo apt-get install nmap')
             os.system('clear')
@@ -82,7 +82,7 @@ def main():
             
         def enter_kat():
             logo()
-            os.system('sudo python /opt/ceguel/kat.py')
+            os.system('sudo python /ceguel/kat.py')
 
         def checking_install_soft():
             soft = raw_input(str('search soft: '))
